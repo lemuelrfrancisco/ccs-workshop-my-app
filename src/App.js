@@ -7,6 +7,7 @@ import Profile from './component/Profile';
 import { useEffect, useRef, useState } from 'react';
 import MyName from './component/MyName';
 import IncrementAge from './component/IncrementAge';
+import Login from './pages/Login';
 
 const user = {
   name: 'Hedy Lamarr',
@@ -47,7 +48,8 @@ export default function App() {
   );
   return (
     <>
-      <IncrementAge />
+      <Login />
+      {/* <IncrementAge /> */}
 
       {/*     
       {profile}
